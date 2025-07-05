@@ -1,0 +1,93 @@
+# === VS project files ===
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+.vs/
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.sdf
+*.cachefile
+
+# === Build output ===
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.log
+*.tlog
+*.pch
+*.pdb
+*.ilk
+*.idb
+*.tmp
+*.tmp_proj
+*.exe
+*.dll
+*.exp
+
+# Keep Detours and custom libraries
+!Framework/**/*.lib
+!Framework/**/*.dll
+
+# Keep the Detours.lib file if explicitly added
+!Framework/Detours/detours.lib
+
+# === Ignore Python bytecode ===
+__pycache__/
+*.pyc
+*.pyo
+
+# === ImGui build cache ===
+imgui.ini
+
+# === Generated project backups ===
+*.orig
+*.bak
+
+# === Ignore CMake or other generators ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# === Ignore VS Build folders ===
+x64/
+x86/
+Release/
+Debug/
+build/
+out/
+
+# === Optional extras ===
+*.manifest
+*.sbr
+*.rsp
+*.tlb
+*.tli
+*.tlh
+*.bsc
+
+# === NuGet & package restore ===
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+
+# === ReSharper / JetBrains Rider ===
+_ReSharper*/
+*.DotSettings.user
+
+# === Git ===
+*.orig
+*.patch
+*.rej
+*.diff
+
+# === VS Code (if using) ===
+.vscode/

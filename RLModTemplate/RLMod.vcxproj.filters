@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Components\Components">
+      <UniqueIdentifier>{05088e23-d549-42b4-8a75-131cc8d466ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extensions">
+      <UniqueIdentifier>{94fc7a1f-83a0-4190-b895-cd88a20dd19e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extensions\Extensions">
+      <UniqueIdentifier>{3c7e2d23-e45d-4322-938e-6f1acf0505bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RLModules">
+      <UniqueIdentifier>{241bcd9e-dd37-48d9-a598-cae1f11a842b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RLModules\RLModules">
+      <UniqueIdentifier>{a25fc3f1-953b-4e4a-a31b-976562030599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{86b6baa9-3f38-4631-862c-bc30a6d4129c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\FunctionHook">
+      <UniqueIdentifier>{573bdaad-d9f3-4f91-8e4b-308b3fdabff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Detours">
+      <UniqueIdentifier>{566e4eef-3540-45a3-b4bf-1b613a7c8fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\EventGuard">
+      <UniqueIdentifier>{c6f46f68-6ca4-4eb2-b711-d56f834fc78a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\MinHook">
+      <UniqueIdentifier>{da7a44b9-a92b-4edc-bc45-fa155170c433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\MinHook\hde">
+      <UniqueIdentifier>{e66f8d97-9e4f-43dd-acd7-47e003548883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RLSDK">
+      <UniqueIdentifier>{c1e60658-0b88-4528-94cb-5efac34efe8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RLSDK\SDK_HEADERS">
+      <UniqueIdentifier>{635aa856-c8a4-47bb-8945-7e94c86e10cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MasterTemplate">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="MasterTemplate\GUI">
+      <UniqueIdentifier>{bcf79628-3366-4328-ad18-ff2b69ffe58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MasterTemplate\GUI\Kiero">
+      <UniqueIdentifier>{e6a26a72-0703-4cb5-9e3e-da2595e5e8d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MasterTemplate\GUI\Kiero\mini">
+      <UniqueIdentifier>{ad0931ed-5aa0-41a8-9142-ba211fe74083}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>MasterTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Component.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Components\Console.cpp">
+      <Filter>Components\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Components\Core.cpp">
+      <Filter>Components\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Components\Events.cpp">
+      <Filter>Components\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Components\GameState.cpp">
+      <Filter>Components\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Components\Instances.cpp">
+      <Filter>Components\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Components\Manager.cpp">
+      <Filter>Components\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Extensions\Colors.cpp">
+      <Filter>Extensions\Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Extensions\Memory.cpp">
+      <Filter>Extensions\Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>MasterTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="RLModules\RLModule.cpp">
+      <Filter>RLModules</Filter>
+    </ClCompile>
+    <ClCompile Include="RLModules\RLModules\Placeholder.cpp">
+      <Filter>RLModules\RLModules</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Extensions\Math.cpp">
+      <Filter>Extensions\Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Extensions\Formatting.cpp">
+      <Filter>Extensions\Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Extensions\Time.cpp">
+      <Filter>Extensions\Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Components\Variables.cpp">
+      <Filter>Components\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\FunctionHook\FunctionHook.cpp">
+      <Filter>Framework\FunctionHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\EventGuard\EventGuard.cpp">
+      <Filter>Framework\EventGuard</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\MinHook\MinHook.cpp">
+      <Filter>Framework\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\MinHook\Trampoline.cpp">
+      <Filter>Framework\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\MinHook\Buffer.cpp">
+      <Filter>Framework\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\MinHook\hde\hde64.cpp">
+      <Filter>Framework\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\MinHook\hde\hde32.cpp">
+      <Filter>Framework\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="RLSDK\GameDefines.cpp">
+      <Filter>RLSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="RLSDK\SDK_HEADERS\AkAudio_classes.cpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClCompile>
+    <ClCompile Include="RLSDK\SDK_HEADERS\Core_classes.cpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClCompile>
+    <ClCompile Include="RLSDK\SDK_HEADERS\Engine_classes.cpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClCompile>
+    <ClCompile Include="RLSDK\SDK_HEADERS\GFxUI_classes.cpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClCompile>
+    <ClCompile Include="RLSDK\SDK_HEADERS\IpDrv_classes.cpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClCompile>
+    <ClCompile Include="RLSDK\SDK_HEADERS\OnlineSubsystemEOS_classes.cpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClCompile>
+    <ClCompile Include="RLSDK\SDK_HEADERS\ProjectX_classes.cpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClCompile>
+    <ClCompile Include="RLSDK\SDK_HEADERS\TAGame_classes.cpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClCompile>
+    <ClCompile Include="RLSDK\SDK_HEADERS\WinDrv_classes.cpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClCompile>
+    <ClCompile Include="RLSDK\SDK_HEADERS\XAudio2_classes.cpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Components\GUI.cpp">
+      <Filter>Components\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>MasterTemplate\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>MasterTemplate\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>MasterTemplate\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>MasterTemplate\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>MasterTemplate\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_stdlib.cpp">
+      <Filter>MasterTemplate\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>MasterTemplate\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>MasterTemplate\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\Kiero\kiero.cpp">
+      <Filter>MasterTemplate\GUI\Kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Extensions\Drawing.cpp">
+      <Filter>Extensions\Extensions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Components\Component.hpp">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Includes.hpp">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Components\Console.hpp">
+      <Filter>Components\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Components\Core.hpp">
+      <Filter>Components\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Components\Events.hpp">
+      <Filter>Components\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Components\GameState.hpp">
+      <Filter>Components\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Components\Instances.hpp">
+      <Filter>Components\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Components\Manager.hpp">
+      <Filter>Components\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Includes.hpp">
+      <Filter>Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Extensions\Colors.hpp">
+      <Filter>Extensions\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Extensions\Memory.hpp">
+      <Filter>Extensions\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.hpp">
+      <Filter>MasterTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="RLModules\Includes.hpp">
+      <Filter>RLModules</Filter>
+    </ClInclude>
+    <ClInclude Include="RLModules\RLModule.hpp">
+      <Filter>RLModules</Filter>
+    </ClInclude>
+    <ClInclude Include="RLModules\RLModules\Placeholder.hpp">
+      <Filter>RLModules\RLModules</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Extensions\Math.hpp">
+      <Filter>Extensions\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Extensions\Formatting.hpp">
+      <Filter>Extensions\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Extensions\Time.hpp">
+      <Filter>Extensions\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.hpp">
+      <Filter>MasterTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Components\Variables.hpp">
+      <Filter>Components\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\FunctionHook\FunctionHook.hpp">
+      <Filter>Framework\FunctionHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Detours\detours.h">
+      <Filter>Framework\Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Detours\detver.h">
+      <Filter>Framework\Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Detours\syelog.h">
+      <Filter>Framework\Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\EventGuard\EventGuard.hpp">
+      <Filter>Framework\EventGuard</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\MinHook\Buffer.hpp">
+      <Filter>Framework\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\MinHook\MinHook.hpp">
+      <Filter>Framework\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\MinHook\Trampoline.hpp">
+      <Filter>Framework\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\MinHook\hde\hde64.hpp">
+      <Filter>Framework\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\MinHook\hde\pstdint.hpp">
+      <Filter>Framework\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\MinHook\hde\table32.hpp">
+      <Filter>Framework\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\MinHook\hde\table64.hpp">
+      <Filter>Framework\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\MinHook\hde\hde32.hpp">
+      <Filter>Framework\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\GameDefines.hpp">
+      <Filter>RLSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SdkHeaders.hpp">
+      <Filter>RLSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\AkAudio_classes.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\AkAudio_parameters.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\AkAudio_structs.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\Core_classes.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\Core_parameters.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\Core_structs.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\Engine_classes.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\Engine_parameters.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\Engine_structs.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\GFxUI_classes.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\GFxUI_parameters.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\GFxUI_structs.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\IpDrv_classes.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\IpDrv_parameters.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\IpDrv_structs.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\OnlineSubsystemEOS_classes.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\OnlineSubsystemEOS_parameters.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\OnlineSubsystemEOS_structs.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\ProjectX_classes.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\ProjectX_parameters.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\ProjectX_structs.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\TAGame_classes.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\TAGame_parameters.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\TAGame_structs.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\WinDrv_classes.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\WinDrv_parameters.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\WinDrv_structs.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\XAudio2_classes.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\XAudio2_parameters.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSDK\SDK_HEADERS\XAudio2_structs.hpp">
+      <Filter>RLSDK\SDK_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Components\GUI.hpp">
+      <Filter>Components\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>MasterTemplate\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>MasterTemplate\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>MasterTemplate\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>MasterTemplate\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>MasterTemplate\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_stdlib.h">
+      <Filter>MasterTemplate\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>MasterTemplate\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>MasterTemplate\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>MasterTemplate\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\Kiero\kiero.h">
+      <Filter>MasterTemplate\GUI\Kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\Kiero\minhook\MinHook.h">
+      <Filter>MasterTemplate\GUI\Kiero\mini</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Extensions\PathUtils.hpp">
+      <Filter>Extensions\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Extensions\XorStr.hpp">
+      <Filter>Extensions\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Extensions\Drawing.hpp">
+      <Filter>Extensions\Extensions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Framework\Detours\detours.lib">
+      <Filter>Framework\Detours</Filter>
+    </Library>
+    <Library Include="Framework\Detours\syelog.lib">
+      <Filter>Framework\Detours</Filter>
+    </Library>
+    <Library Include="ImGui\Kiero\minhook\minhook.x64d.lib">
+      <Filter>MasterTemplate\GUI\Kiero\mini</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Framework\Detours\detours.pdb">
+      <Filter>Framework\Detours</Filter>
+    </None>
+  </ItemGroup>
+</Project>
