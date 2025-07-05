@@ -17,11 +17,6 @@ This is a clean, optimized Rocket League modding template built on top of the Co
 ## Utilities Included
 This template also includes two helpful Python utilities:
 
-### 🔁 `rename_project.py`
-Quickly rename your forked template. It batch-renames all project/solution files and updates internal names.
-```bash
-python rename_project.py CodeRedTemplate YourModName
-```
 
 ### 📂 `generate_includes.py`
 Scans your repo for valid header paths and automatically adds them to your `.vcxproj` include directories.
